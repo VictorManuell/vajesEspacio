@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530" stamp="1717721116000"/>
+    <entry loc="/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre" stamp="1717721116000"/>
+    <entry loc="/usr/lib/jvm/jdk-11-oracle-x64" stamp="1717635003281"/>
+    <entry loc="/home/vicher/.sdkman/candidates/java/23.0.2-oracle" stamp="1745700302000"/>
+    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1745522333164"/>
+    <entry loc="/usr/lib/jvm/jdk-23.0.2-oracle-x64" stamp="1745687733781"/>
+    <entry loc="/usr/lib/jvm/jdk-17-oracle-x64" stamp="1717719677562"/>
+</dirs>

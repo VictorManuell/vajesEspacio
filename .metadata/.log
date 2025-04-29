@@ -1,0 +1,63 @@
+!SESSION 2025-04-28 09:29:54.416 -----------------------------------------------
+eclipse.buildId=4.23.0.202406070037
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_MX
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-28 09:29:58.169
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-28 09:30:46.442
+!MESSAGE Logback config file: /home/vicher/Documentos/codigoRupestre/FullStack-youtube/pyoyectos/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-28 09:30:46.826
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-28 09:30:46.826
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-28 09:30:47.234
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-28 09:30:47.234
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:50.385
+!MESSAGE Classpath changed for project: codigo-rupestre-venta-boletos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:50.386
+!MESSAGE Boot project ADDED: codigo-rupestre-venta-boletos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:50.386
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:50.427
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-28 09:45:50.441
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.55.0.202406062354/servers/spring-boot-language-server/BOOT-INF/classes:/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.55.0.202406062354/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/vicher/Descargas/sts-4.23.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.55.0.202406062354/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/vicher/Documentos/codigoRupestre/FullStack-youtube/pyoyectos/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745855150440
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:50.441
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-28 09:45:50.452
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10393
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:45:53.057
+!MESSAGE Classpath changed for project: codigo-rupestre-venta-boletos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-28 09:46:59.066
+!MESSAGE Classpath changed for project: codigo-rupestre-venta-boletos
