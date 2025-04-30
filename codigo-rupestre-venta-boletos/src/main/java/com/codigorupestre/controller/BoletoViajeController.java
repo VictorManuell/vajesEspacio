@@ -20,7 +20,7 @@ public class BoletoViajeController {
 	
 	public BoletoViajeController() {
 		for (int i = 0; i <=20; i++) {
-			asientosDisponibles.put("XUG-2025-" + i, true);
+			asientosDisponibles.put("X-2025-" + i, true);
 		}
 	}
 	
@@ -28,6 +28,11 @@ public class BoletoViajeController {
 	@SendTo("/topic/actualizarAsientos")
 	public Map<String, Boolean> comprarBoleto(BoletoViaje boletoViaje){
 		log.info("Solicitud de compra de boleto {} ", boletoViaje);
+		
+		String asientoClave = boletoViaje.vueloId() + "-" +boletoViaje.asiento();
+		if(asientosDisponibles.getOrDefault(asientoClave, false)) {
+			asientosDisponibles.put(asientoClave, false);
+		}
 		
 		return asientosDisponibles;
 	}
